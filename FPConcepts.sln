@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctorLaws", "Functors\FunctorLaws\FunctorLaws.csproj", "{EF477BC8-5F32-40C6-B676-86ACC78F35FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaybeFunctor", "Functors\MaybeFunctor\MaybeFunctor.csproj", "{72973666-76C0-4F93-B77B-AED56E07CF07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeFunctor", "Functors\TreeFunctor\TreeFunctor.csproj", "{A3431850-4A53-4B1E-8F7D-1AC8B65A8510}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSTreeFunctor", "Functors\FSTreeFunctor\FSTreeFunctor.fsproj", "{FF0A40AD-BF5D-4A27-9F3F-9F90977D6448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorFunctor", "Functors\VisitorFunctor\VisitorFunctor.csproj", "{94961474-80F5-452C-9CE8-A36765791A5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Either.Tests", "Either.Tests\Either.Tests.csproj", "{76752CD4-6860-421B-BF32-1F30828E3C62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF477BC8-5F32-40C6-B676-86ACC78F35FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF477BC8-5F32-40C6-B676-86ACC78F35FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF477BC8-5F32-40C6-B676-86ACC78F35FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF477BC8-5F32-40C6-B676-86ACC78F35FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72973666-76C0-4F93-B77B-AED56E07CF07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72973666-76C0-4F93-B77B-AED56E07CF07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72973666-76C0-4F93-B77B-AED56E07CF07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72973666-76C0-4F93-B77B-AED56E07CF07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3431850-4A53-4B1E-8F7D-1AC8B65A8510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3431850-4A53-4B1E-8F7D-1AC8B65A8510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3431850-4A53-4B1E-8F7D-1AC8B65A8510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3431850-4A53-4B1E-8F7D-1AC8B65A8510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF0A40AD-BF5D-4A27-9F3F-9F90977D6448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0A40AD-BF5D-4A27-9F3F-9F90977D6448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0A40AD-BF5D-4A27-9F3F-9F90977D6448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF0A40AD-BF5D-4A27-9F3F-9F90977D6448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94961474-80F5-452C-9CE8-A36765791A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94961474-80F5-452C-9CE8-A36765791A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94961474-80F5-452C-9CE8-A36765791A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94961474-80F5-452C-9CE8-A36765791A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76752CD4-6860-421B-BF32-1F30828E3C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76752CD4-6860-421B-BF32-1F30828E3C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76752CD4-6860-421B-BF32-1F30828E3C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76752CD4-6860-421B-BF32-1F30828E3C62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFF3965B-EE6B-4700-B686-A32313F5CC2D}
+	EndGlobalSection
+EndGlobal

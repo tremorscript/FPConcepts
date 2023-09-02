@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="ComputationExpressions\LogBuilder.fs" />
+    <Compile Include="Library.fs" />
+    <Compile Include="Result.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ComputationExpressions\MaybeBuilder.fs" />
+    <None Include="ComputationExpressions\OrElseBuilder.fs" />
+    <None Include="ComputationExpressions\Sample04_AsyncCallbacks.fsx" />
+    <None Include="ComputationExpressions\Sample05_Continuations.fsx" />
+    <None Include="ComputationExpressions\Sample06_IntroducingBind.fsx" />
+    <None Include="ComputationExpressions\Sample07_WrapperTypes.fsx" />
+    <None Include="ComputationExpressions\Sample08_ComputationExpressionMembers.fsx" />
+    <None Include="ComputationExpressions\Sample09_ListWrapperTypes.fsx" />
+    <None Include="ComputationExpressions\Sample10_IdentityWrapperType.fsx" />
+    <None Include="ComputationExpressions\Sample11_ImplementingCE.fsx" />
+    <Compile Include="InlineFunctions.fs" />
+  </ItemGroup>
+
+</Project>
