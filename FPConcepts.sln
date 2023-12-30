@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorFunctor", "Functors\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Either.Tests", "Either.Tests\Either.Tests.csproj", "{76752CD4-6860-421B-BF32-1F30828E3C62}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DesigningWithTypes", "DesigningWithTypes\DesigningWithTypes.fsproj", "{6983BD46-3189-4D57-820E-685BA9CF0A93}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ShoppingCartStateMachine", "ShoppingCartStateMachine\ShoppingCartStateMachine.fsproj", "{9E8B5089-CE49-4A65-ABE4-0613C900B3DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{76752CD4-6860-421B-BF32-1F30828E3C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76752CD4-6860-421B-BF32-1F30828E3C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76752CD4-6860-421B-BF32-1F30828E3C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6983BD46-3189-4D57-820E-685BA9CF0A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6983BD46-3189-4D57-820E-685BA9CF0A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6983BD46-3189-4D57-820E-685BA9CF0A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6983BD46-3189-4D57-820E-685BA9CF0A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E8B5089-CE49-4A65-ABE4-0613C900B3DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E8B5089-CE49-4A65-ABE4-0613C900B3DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E8B5089-CE49-4A65-ABE4-0613C900B3DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E8B5089-CE49-4A65-ABE4-0613C900B3DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

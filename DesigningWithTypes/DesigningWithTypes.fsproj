@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ConstrainedTypes.fs" />
+    <Compile Include="Client.fs" />
+    <Compile Include="StateCode.fs" />
+    <Compile Include="ZipCode.fs" />
+    <Compile Include="EmailAddress.fs" />
+    <Compile Include="EmailAddressClient.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+</Project>
