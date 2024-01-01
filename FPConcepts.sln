@@ -19,6 +19,10 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DesigningWithTypes", "Desig
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ShoppingCartStateMachine", "ShoppingCartStateMachine\ShoppingCartStateMachine.fsproj", "{9E8B5089-CE49-4A65-ABE4-0613C900B3DD}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ActivePatterns", "ActivePatterns\ActivePatterns.fsproj", "{42A65EFA-0E1D-48A8-915E-614D69E749A2}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MapBindApply", "MapBindApply\MapBindApply.fsproj", "{A94AE63B-52EC-4D9F-8D69-631A91FFADC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{9E8B5089-CE49-4A65-ABE4-0613C900B3DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E8B5089-CE49-4A65-ABE4-0613C900B3DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E8B5089-CE49-4A65-ABE4-0613C900B3DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A65EFA-0E1D-48A8-915E-614D69E749A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A65EFA-0E1D-48A8-915E-614D69E749A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A65EFA-0E1D-48A8-915E-614D69E749A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A65EFA-0E1D-48A8-915E-614D69E749A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A94AE63B-52EC-4D9F-8D69-631A91FFADC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94AE63B-52EC-4D9F-8D69-631A91FFADC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94AE63B-52EC-4D9F-8D69-631A91FFADC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94AE63B-52EC-4D9F-8D69-631A91FFADC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
