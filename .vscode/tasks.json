@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Functors/FunctorLaws/FunctorLaws.csproj",
+                "${workspaceFolder}/FabulousUI.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
